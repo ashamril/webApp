@@ -119,9 +119,9 @@ dfKomenEN = pd.DataFrame(dataEN)
 dfKomenEN.columns = ['Language', 'Review']
 dfKomenMSID = pd.DataFrame(dataMSID)
 dfKomenMSID.columns = ['Language', 'Review']
-print("English reviews: \n", tabulate(dfKomenEN, showindex=False, headers=dfKomenEN.columns))
-print("")
-print("Bahasa Melayu reviews: \n", tabulate(dfKomenMSID, showindex=False, headers=dfKomenMSID.columns))
+#print("English reviews: \n", tabulate(dfKomenEN, showindex=False, headers=dfKomenEN.columns))
+#print("")
+#print("Bahasa Melayu reviews: \n", tabulate(dfKomenMSID, showindex=False, headers=dfKomenMSID.columns))
 
 # # Language Detection using TextBlob
 

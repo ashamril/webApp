@@ -1,3 +1,4 @@
+tensorflow
 google_trans_new
 flair
 malaya==4.2.1

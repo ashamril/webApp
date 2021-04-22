@@ -1,3 +1,4 @@
+Flask>=1.0,<=1.1.2
 tensorflow
 google_trans_new
 flair
